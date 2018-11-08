@@ -1,0 +1,41 @@
+/* Page content */
+
+.parallax-bg {
+    padding: 15rem 0;
+    background-image: url(../imagens/farol.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all linear;
+}
+
+div h3 {
+    text-align: center;
+}
+
+.col-bg {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.parag {
+    padding: 1rem;
+    color: #fff;
+    text-align: justify;
+    font-weight: 400;
+    background-color: rgb(206, 181, 37);
+    border-radius: 15px;
+}
+
+/*
+Desligar parallax scrolling tablets e smartphones  */
+@media only screen and (max-device-width: 1024px) {
+.bgimg-1 {
+    background-attachment: scroll;
+    }
+}
+
+

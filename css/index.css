@@ -1,0 +1,115 @@
+body {
+    background-color: #efefef;
+}
+
+/* header */
+
+#border {
+    margin-top: 0;
+    border-bottom: 0.2rem solid rgb(206, 181, 37);
+}
+
+/* header > slideshow */
+
+.slidecard {
+    width: 30%;
+    height: auto;
+    background: rgb(206, 181, 37);
+    margin: 0;
+    padding: 10px;
+}
+
+.blockquote {
+    font-size: 100%;
+    text-align: justify;
+    padding: 0 5px 0 5px;;
+    margin: 0;
+}
+
+.blockquote-footer {
+    font-style: italic;
+}
+
+/* Page content */
+/* section #servicos */
+
+#servicos {
+    border-bottom: 0.2rem solid rgb(206, 181, 37);
+    text-transform: uppercase;
+}
+
+
+.image, .image:hover, .image:focus {
+    display: block;
+    height: 100%;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-weight: 600;
+}
+
+.logo-servicos {
+    border-radius: 50%;
+    margin-bottom: 0.7rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.servicos:hover {
+    background-color: rgb(206, 181, 37);
+}
+
+/* Page content - #destaques */
+
+.wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#publicacoes h2 {
+    text-align: center;
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h3 a:hover {
+    color: rgb(206, 181, 37);
+    font-weight: bold;
+}
+
+.texto {
+    background-color: #fff;
+}
+
+.img-wraper {
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.title {
+    height: 6rem;
+    overflow: hidden;
+}
+
+.article {
+    height: 10rem;
+    overflow: hidden;
+}
+
+.pub-date {
+    font-size: 0.9rem;
+    color: rgb(112, 108, 108);
+    margin-bottom: 0.5rem;    
+}
+

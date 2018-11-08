@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>SampleCo</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="assets/bootstrap/css/custom.css" rel="stylesheet">
+
+        <!-- Custom styles -->
+        <link href="css/slider.css" rel="stylesheet">
+        <link href="css/contactos.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link href="css/form.css" rel="stylesheet">        
+        
+
+   </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img class="logo" src="imagens/mylogo.png" alt="logotipo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="quem-somos.html">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="servicos.html">Serviços<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="publicacoes.html">Publicações<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center active" href="contactos.html">Contactos<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+        
+        <div id="contactos">
+            <div class="parallax-bg">
+                <h1>contactos</h1>
+            </div>
+            <div id="seccao-mapa" class="container">
+                <div class="row">
+                    <div id="morada" class="col-sm-6">
+                        <div class="texto">
+                            <address><strong>Sede</strong><br>Rua do Sobe e Desce, nº 99 - 9999-999 XPTO<br>
+                            <strong>Tel:</strong> (351) 999 999 999
+                            <br>
+                            <strong>Fax:</strong> (351) 999 999 999
+                            <br>
+                            <hr>
+                            <strong>Agência Rua do Vai e Vem</strong><br>Rua do Vai e Vem, nº 99 - 9999-999 XPTO
+                            <br>
+                            <strong>Tel:</strong> (351) 999 999 999
+                            <br>
+                            <strong>Fax:</strong> (351) 999 999 999
+                            <br>
+                            <hr>
+                            <strong>Email geral;</strong>
+                            <br>
+                            <a href="mailto:xpto@xpro.com">xpto@xpto.com</a>
+                            <br>
+                            <hr>
+                            </address>
+                        </div>
+                    </div>
+                    <div id="mapa" class="col-sm-6">
+                        <div id="mapa-wrapper">
+                            <img class="img-responsive" id="img-mapa" src="imagens/mapa.jpg" alt="mapa">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section id="formulario-contacto" class="bg-dark">
+            
+            <div class="container">
+                <h2 id="text-center">CONTACTO</h2>
+                <form method="post">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-contacto">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" name="nome" id="nome" placeholder="Nome">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" name="empresa" id="empresa" placeholder="Empresa">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" name="telefone" id="telefone" placeholder="telefone">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control form-control-lg" id="email" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-contacto">
+                                <div class="form-group">
+                                    <textarea class="form-control form-control-lg" name="mensagem" id="mensagem" placeholder="Mensagem" rows="9"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 d-flex justify-content-center" id="button">
+                            <button type="submit" class="btn btn-gold-2 btn-lg" id="submitButton">ENVIAR</button>
+                        </div>
+                        <div class="container">
+                            <p class="form-mensagem"></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+        </section>
+                
+        <!-- Footer -->
+       <footer class="py-5" id="bg-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <p class="m-0 text-left text-white">SampleCo &copy; 2018 Todos os direitos reservados</p>
+                    </div>
+                    <div class="col-sm">
+
+                    </div>
+                    <div class="col-sm">
+                        <p class="m-0 text-right text-white">Desenvolvido por <a id="footer-link" href="#" target="_blank">Link</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="assets/jquery/jquery.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+        
+        <!-- custom javascript -->
+        
+        <script src="js/custom-js.js"></script>
+        
+
+    </body>
+
+    </html>

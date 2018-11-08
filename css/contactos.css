@@ -1,0 +1,64 @@
+body {
+    background-color: #efefef;
+}
+
+/* Page content */
+
+#contactos {
+    height: auto;
+    background-color: #efefef;
+}
+
+.parallax-bg {
+    padding: 8rem 0;
+    opacity: 0.3;
+    background-image: url(../imagens/planta.png);
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-transition: all linear;
+    -moz-transition: all linear;
+    transition: all linear;
+}
+
+.parallax-bg h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+/*
+Desligar parallax scrolling tablets e smartphones  */
+@media only screen and (max-device-width: 1024px) {
+.bgimg-1 {
+    background-attachment: scroll;
+    }
+}
+
+/* #morada */
+
+.texto {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.texto a {
+    color: darkblue;
+}
+
+.texto a:hover {
+    text-decoration: underline;
+}
+
+#seccao-mapa {
+    margin: 1.2rem auto;
+}
+
+#mapa-wrapper {
+    text-align: center;
+}
+
+#img-mapa {
+    width: 100%;
+    padding-top: 0rem;
+}
+

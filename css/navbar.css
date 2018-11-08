@@ -1,0 +1,11 @@
+/* navbar */
+
+.logo {
+    max-width: 10rem;
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    border-bottom: 0.2rem solid rgb(206, 181, 37);
+}

@@ -1,0 +1,11 @@
+/* footer */
+
+#bg-footer {
+    background-color: black;
+}
+
+#footer-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
