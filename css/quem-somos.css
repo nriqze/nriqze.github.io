@@ -32,7 +32,7 @@ div h3 {
 
 /*
 Desligar parallax scrolling tablets e smartphones  */
-@media only screen and (max-device-width: 760px) {
+@media only screen and (max-width: 760px) {
 .parallax-bg {
     background-attachment: scroll;
     background-position: center center !important;

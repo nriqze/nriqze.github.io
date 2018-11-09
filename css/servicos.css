@@ -79,7 +79,7 @@ h4 {
 
 /*
 Desligar parallax scrolling tablets e smartphones  */
-@media only screen and (max-device-width: 760px) {
+@media only screen and (max-width: 760px) {
 .parallax-bg-1, .parallax-bg-2, .parallax-bg-3, .parallax-bg-4 {
     background-attachment: scroll;
     background-position: center center !important;
