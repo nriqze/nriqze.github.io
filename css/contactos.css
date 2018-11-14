@@ -28,7 +28,7 @@ body {
 
 /*
 Desligar parallax scrolling tablets e smartphones  */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1024px) {
 .parallax-bg {
     background-attachment: scroll;
     background-position: center center !important;
