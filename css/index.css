@@ -113,3 +113,8 @@ h3 a:hover {
     margin-bottom: 0.5rem;    
 }
 
+@media screen and (max-width: 640px) {
+    #servicos {
+        display: none;
+    }
+}
