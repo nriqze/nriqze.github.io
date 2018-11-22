@@ -11,23 +11,26 @@
     transition: all linear;
 }
 
+.row {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 div h3 {
     text-align: center;
 }
 
 .col-bg {
     background-color: white;
-    opacity: 0.8;
-    border-radius: 15px;
+    
 }
 
 .parag {
-    padding: 1rem;
+    padding: 2rem;
     color: #fff;
     text-align: justify;
     font-weight: 400;
     background-color: rgb(206, 181, 37);
-    border-radius: 15px;
 }
 
 /*
