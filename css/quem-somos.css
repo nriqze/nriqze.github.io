@@ -22,7 +22,6 @@ div h3 {
 
 .col-bg {
     background-color: white;
-    
 }
 
 .parag {
@@ -42,4 +41,10 @@ Desligar parallax scrolling tablets e smartphones  */
     }
 }
 
+
+@media only screen and (max-width: 640px) {
+    .parag {
+        font-size: 90%;
+    } 
+}
 
