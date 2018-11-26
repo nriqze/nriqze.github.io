@@ -8,7 +8,7 @@ body {
 /* Page content */
 /* section #contabilidade, #gestao, #outsourcing, #consultoria */
 
-h4 {
+h5 {
     text-transform: capitalize;
 }
 
@@ -24,59 +24,42 @@ h4 {
 }
 
 .parallax-bg-1 {
+    opacity: 1;
     background-image: url(../imagens/consulting.png);
 }
 
 .parallax-bg-2 {
+    opacity: 1;
     background-image: url(../imagens/consulting1.jpg);
 }
 
 .parallax-bg-3 {
+    opacity: 1;
     background-image: url(../imagens/consulting2.png);
 }
 
 .parallax-bg-4 {
+    opacity: 1;
     background-image: url(../imagens/consulting3.jpg);
 }
 
-.service-title {
-    padding-left: 2rem;
-    text-align: left;
+.card {
+    background-color: rgb(206, 181, 37);
 }
 
-.service-title spam {
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    display: table;
-    padding: 0.5rem;
-    letter-spacing: 0.5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    background-color: #efefef;
-}
-
-.col-bg-c, .col-bg-w {
-    padding: 2rem !important;
-}
-
-.col-bg-c p, .col-bg-w p {
-    text-align: justify;
-}
-
-.col-bg-c {
-    background-color: #efefef;
-}
-
-.col-bg-w {
-    background-color: white;
+.card-body {
+    color: #efefef;
 }
 
 /*
 Desligar parallax scrolling tablets e smartphones  */
 @media only screen and (max-width: 1024px) {
-.parallax-bg-1, .parallax-bg-2, .parallax-bg-3, .parallax-bg-4 {
+    .parallax-bg-1, .parallax-bg-2, .parallax-bg-3, .parallax-bg-4 {
     background-attachment: scroll;
     background-position: center center !important;
+    }
+    .service-title {
+        padding: 0;
     }
 }
 
