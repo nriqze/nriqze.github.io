@@ -51,6 +51,10 @@ h5 {
     color: #efefef;
 }
 
+.card-title {
+    text-transform: uppercase;
+}
+
 /*
 Desligar parallax scrolling tablets e smartphones  */
 @media only screen and (max-width: 1024px) {

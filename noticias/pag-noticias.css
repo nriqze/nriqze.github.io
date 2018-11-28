@@ -13,6 +13,7 @@ body {
 #titulo {
     padding: 2rem;
     text-transform: uppercase;
+    overflow-wrap: break-word;
 }
 
 #data {
@@ -29,10 +30,4 @@ body {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
-    h3 {
-        font-size: 100%;
-        text-align: justify !important;
-    }
-}
 

@@ -10,8 +10,7 @@ body {
 }
 
 .parallax-bg {
-    padding: 8rem 0;
-    opacity: 0.3;
+    padding: 15rem 0;
     background-image: url(../imagens/planta.png);
     background-size: cover;
     background-attachment: fixed;
@@ -26,8 +25,7 @@ body {
     color: black;
 }
 
-/*
-Desligar parallax scrolling tablets e smartphones  */
+/* Desligar parallax scrolling tablets e smartphones  */
 @media only screen and (max-width: 1024px) {
 .parallax-bg {
     background-attachment: scroll;
