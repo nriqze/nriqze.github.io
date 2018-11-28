@@ -43,6 +43,10 @@ h5 {
     background-image: url(../imagens/consulting3.jpg);
 }
 
+.card-group {
+    margin: 0 2rem;
+}
+
 .card {
     background-color: rgb(206, 181, 37);
 }
