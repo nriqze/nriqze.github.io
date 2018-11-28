@@ -62,64 +62,21 @@ body {
 
 /* Page content - #destaques */
 
-.wraper {
-    display: flex;
-    flex-wrap: wrap;
+.wrap-deck {
+    margin-bottom: 2rem;
 }
 
 #publicacoes h2 {
     text-align: center;
-    padding: 2rem 0;
+    padding: 4rem 0;
     text-transform: uppercase;
 }
 
-h3 {
-    text-align: left;
-    text-transform: uppercase;
-}
-
-h3 a:hover {
-    color: rgb(206, 181, 37);
-    font-weight: bold;
-}
-
-.texto {
-    background-color: #fff;
-}
-
-.img-wraper {
-    position: relative;
-}
-
-.img {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-}
-
-.title {
-    height: 6rem;
-    overflow: hidden;
-}
-
-.article {
-    height: 10rem;
-    overflow: hidden;
-}
-
-.pub-date {
-    font-size: 0.9rem;
-    color: rgb(112, 108, 108);
-    margin-bottom: 0.5rem;    
-}
-
-@media screen and (max-width: 640px) {
+@media (max-width: 768px) {
     #servicos {
         display: none;
     }
-}
+2}
 
 
 
