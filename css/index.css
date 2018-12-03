@@ -72,11 +72,15 @@ body {
     text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
-    #servicos {
+@media screen and (max-width: 768px) {
+    #servicos, .card-img-top {
         display: none;
     }
-2}
+    
+    .card-deck {
+        flex-flow: column wrap;
+    }
+}
 
 
 
