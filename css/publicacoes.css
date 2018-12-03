@@ -14,3 +14,12 @@ body {
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+    .card-img-top {
+        display: none;
+    }
+    
+    .card-deck {
+        flex-flow: column wrap;
+    }
+}
